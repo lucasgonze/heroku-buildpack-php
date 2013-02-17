@@ -59,7 +59,7 @@ export PHP_INI_SCAN_DIR=/app/www
 php/bin/pear install mail
 php/bin/pear install Net_SMTP
 
-php/bin/pear install OAuth
+php/bin/pear install oauth-0.99.9
 
 echo "Launching apache"
 exec /app/apache/bin/httpd -DNO_DETACH
