@@ -60,6 +60,8 @@ php/bin/pear install mail
 php/bin/pear install Net_SMTP
 
 php/bin/pear install oauth-0.99.9
+#echo "extension=oauth.so"
+echo "FOO"
 
 echo "Launching apache"
 exec /app/apache/bin/httpd -DNO_DETACH
